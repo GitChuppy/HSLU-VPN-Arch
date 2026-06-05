@@ -3,3 +3,5 @@ src/
 pkg/
 *.rpm
 *.sha256
+.claude/*
+*.deb
