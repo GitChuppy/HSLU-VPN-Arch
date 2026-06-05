@@ -27,6 +27,8 @@ If anything is missing, `makepkg` will tell you.
 4. Run `makepkg -i`
 5. Install any missing dependencies and repeat
 
+If you are updating from an older version, you may need to run `makepkg -Ccf && makepkg -i`, to get a clean and updated build instead of getting the old version installed. 
+
 ## Post install
 
 ### Start the service
